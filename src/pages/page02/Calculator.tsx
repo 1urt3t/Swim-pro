@@ -1,6 +1,6 @@
 
 export default function Calculator() {
   return (
-    <div>Calculator</div>
+    <div>В разработке...</div>
   )
 }

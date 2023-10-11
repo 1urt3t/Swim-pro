@@ -1,5 +1,5 @@
 import Slider from 'react-slick';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -48,7 +48,7 @@ export default function Slider04({ setActive, activeSlide }: Slider04Props) {
 
     if (check == false) {
         const updatedActiveSlide = [...activeSlide];
-        updatedActiveSlide[1] = variantsId[currentSlideT];
+        updatedActiveSlide[1] = variantsId[0];
         setActive(updatedActiveSlide);
         setCheck(true)
     }
@@ -72,6 +72,7 @@ export default function Slider04({ setActive, activeSlide }: Slider04Props) {
             setCurrentSlide(currentSlide)
           },
       };
+
     return (
         <div className='slider-container slider04'>
             <Slider {...settings} className='slider'>
