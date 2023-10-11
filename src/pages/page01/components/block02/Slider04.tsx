@@ -1,5 +1,5 @@
 import Slider from 'react-slick';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
