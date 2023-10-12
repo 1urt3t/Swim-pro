@@ -48,7 +48,7 @@ export default function Slider04({ setActive, activeSlide }: Slider04Props) {
 
     if (check == false) {
         const updatedActiveSlide = [...activeSlide];
-        updatedActiveSlide[1] = variantsId[0];
+        updatedActiveSlide[1] = variantsId[currentSlideT];
         setActive(updatedActiveSlide);
         setCheck(true)
     }
