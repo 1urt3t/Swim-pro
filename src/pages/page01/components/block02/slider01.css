@@ -63,7 +63,6 @@
       height: 31px;
       margin-bottom: 10px;
   }
-
   .slider {
     position: relative;
     padding: 5px 0px;
@@ -80,6 +79,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+  }
+  .slick-prev,
+  .slick-next{
+    padding-top: 2px;
+  }
 }
   
